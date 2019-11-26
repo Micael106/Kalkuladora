@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{88222F5B-9608-4577-BE28-8C064363CFF6}|Default">
+  <MonoDevelop.Ide.ItemProperties.Kalkuladora.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Kalkuladora/MainPage.xaml.cs">
+    <Files>
+      <File FileName="Kalkuladora/MainPage.xaml.cs" Line="19" Column="66" />
+      <File FileName="Kalkuladora/MainPage.xaml" Line="27" Column="28" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Kalkuladora" expanded="True">
+            <Node name="Kalkuladora" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Kalkuladora.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

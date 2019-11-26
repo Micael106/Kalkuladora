@@ -1,0 +1,13 @@
+/Users/micael/Projects/Kalkuladora/Kalkuladora/bin/Debug/netstandard2.0/Kalkuladora.deps.json
+/Users/micael/Projects/Kalkuladora/Kalkuladora/bin/Debug/netstandard2.0/Kalkuladora.dll
+/Users/micael/Projects/Kalkuladora/Kalkuladora/bin/Debug/netstandard2.0/ref/Kalkuladora.dll
+/Users/micael/Projects/Kalkuladora/Kalkuladora/bin/Debug/netstandard2.0/Kalkuladora.pdb
+/Users/micael/Projects/Kalkuladora/Kalkuladora/obj/Debug/netstandard2.0/Kalkuladora.csprojAssemblyReference.cache
+/Users/micael/Projects/Kalkuladora/Kalkuladora/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/micael/Projects/Kalkuladora/Kalkuladora/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/micael/Projects/Kalkuladora/Kalkuladora/obj/Debug/netstandard2.0/Kalkuladora.AssemblyInfoInputs.cache
+/Users/micael/Projects/Kalkuladora/Kalkuladora/obj/Debug/netstandard2.0/Kalkuladora.AssemblyInfo.cs
+/Users/micael/Projects/Kalkuladora/Kalkuladora/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/micael/Projects/Kalkuladora/Kalkuladora/obj/Debug/netstandard2.0/Kalkuladora.dll
+/Users/micael/Projects/Kalkuladora/Kalkuladora/obj/Debug/netstandard2.0/ref/Kalkuladora.dll
+/Users/micael/Projects/Kalkuladora/Kalkuladora/obj/Debug/netstandard2.0/Kalkuladora.pdb

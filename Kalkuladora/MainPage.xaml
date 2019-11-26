@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="Kalkuladora.MainPage">
+    <StackLayout VerticalOptions="End">
+         <!--Place new controls here -->
+        <Label Text="Kalkuladora" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" FontSize="25"/>
+        <Grid x:Name="controlGrid" RowSpacing="1" ColumnSpacing="1">
+            <!-- A primeira linha tem o label para mostrar operação e resultado, as demais serão os botões -->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="200"/>     <!-- Label mostrando a operação e resultado -->
+                <RowDefinition Height="*"/>     <!-- 1ª linha com números e operador -->
+                <RowDefinition Height="*"/>     <!-- 2ª linha com números e operador -->
+                <RowDefinition Height="*"/>     <!-- 3ª linha com números e operador -->
+                <RowDefinition Height="*"/>     <!-- 4ª linha com números e operador -->
+            </Grid.RowDefinitions>
+            <!-- As colunas tem width iguais -->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label x:Name="ResultLabel" Text="0" Grid.Row="0" HorizontalTextAlignment="End" VerticalTextAlignment="End" FontSize="50" Grid.ColumnSpan="4"/>
+            <!-- Operadores na primeira coluna -->
+            <Button Text="+" Grid.Row="1" Grid.Column="0" BorderRadius="0" FontSize="40" Clicked="OnButtonTouch"/>
+            <Button Text="–" Grid.Row="2" Grid.Column="0" BorderRadius="0" FontSize="40" Clicked="OnButtonTouch"/>
+            <Button Text="×" Grid.Row="3" Grid.Column="0" BorderRadius="0" FontSize="40" Clicked="OnButtonTouch"/>
+            <Button Text="÷" Grid.Row="4" Grid.Column="0" BorderRadius="0" FontSize="40" Clicked="OnButtonTouch"/>
+            <!-- Números nas outras colunas -->
+            <Button Text="1" Grid.Row="1" Grid.Column="1" BorderRadius="0" FontSize="40" Clicked="OnButtonTouch"/>
+            <Button Text="2" Grid.Row="1" Grid.Column="2" BorderRadius="0" FontSize="40" Clicked="OnButtonTouch"/>
+            <Button Text="3" Grid.Row="1" Grid.Column="3" BorderRadius="0" FontSize="40" Clicked="OnButtonTouch"/>
+            <Button Text="4" Grid.Row="2" Grid.Column="1" BorderRadius="0" FontSize="40" Clicked="OnButtonTouch"/>
+            <Button Text="5" Grid.Row="2" Grid.Column="2" BorderRadius="0" FontSize="40" Clicked="OnButtonTouch"/>
+            <Button Text="6" Grid.Row="2" Grid.Column="3" BorderRadius="0" FontSize="40" Clicked="OnButtonTouch"/>
+            <Button Text="7" Grid.Row="3" Grid.Column="1" BorderRadius="0" FontSize="40" Clicked="OnButtonTouch"/>
+            <Button Text="8" Grid.Row="3" Grid.Column="2" BorderRadius="0" FontSize="40" Clicked="OnButtonTouch"/>
+            <Button Text="9" Grid.Row="3" Grid.Column="3" BorderRadius="0" FontSize="40" Clicked="OnButtonTouch"/>
+            <Button Text="0" Grid.Row="4" Grid.Column="1" BorderRadius="0" FontSize="40" Clicked="OnButtonTouch"/>
+            <Button Text="C" Grid.Row="4" Grid.Column="2" BorderRadius="0" FontSize="40" Clicked="OnButtonTouch"/>
+            <Button Text="=" Grid.Row="4" Grid.Column="3" BorderRadius="0" FontSize="40" Clicked="OnButtonTouch"/>
+        </Grid>
+    </StackLayout>
+</ContentPage>
